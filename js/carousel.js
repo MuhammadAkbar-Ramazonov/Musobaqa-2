@@ -66,4 +66,3 @@ $('.benefit__list').slick({
     },
   ]
 });
-

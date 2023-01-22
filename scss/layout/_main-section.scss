@@ -1,0 +1,11 @@
+@use "@components/modals";
+.main-section{
+    border-radius: 0px 0px 50px 50px;
+    background-image: url("/hero/hero.jpg");
+}
+
+@media screen and (min-width:1440px) {
+    .main-section {
+        margin-bottom: 140px;
+    }
+}

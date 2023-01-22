@@ -1,12 +1,14 @@
 @use "@abstracts/variables";
 @use "@vendors/normalize";
 @use "@base/fonts";
+@use "@components/buttons";
 @use "@base/default";
-@use "./layout/hero";
-
-@use "./layout/popular";
-@use "./layout/benefits";
-
-@use "./layout/category";
-@use "./layout/footer";
-
+@use "@layout/category";
+@use "@layout/footer";
+@use "@layout/main-section";
+@use "@layout/header";
+@use "@layout/hero";
+@use "@layout/expediency";
+@use "@layout/article";
+@use "@layout/popular";
+@use "@layout/benefits";
