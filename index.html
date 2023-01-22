@@ -5,20 +5,95 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/>
+
     <title>Vite App</title>
     <link rel="stylesheet" href="/scss/main.scss">
   </head>
   <body>
 
     <section class="popular">
-      <div class="container">
         <h2 class="popular__title">
           Popular Products
         </h2>
-      </div>
+        <div class="carousel__wrap">
+          <ul class="carousel__list">
+            <li class="carousel__item carousel__item--one">
+              <h3 class="carousel__title">
+                Armchair
+              </h3>
+              <h3 class="carousel__text">
+                Light single chair
+              </h3>
+              <span class="carousel__prise">
+                $145
+              </span>
+            </li>
+
+            <li class="carousel__item carousel__item--two">
+              <h3 class="carousel__title">
+                Premium Sofa
+              </h3>
+              <h3 class="carousel__text">
+                Light single chair
+              </h3>
+              <span class="carousel__prise">
+                $145
+              </span>
+            </li>
+
+            <li class="carousel__item carousel__item--thre">
+              <h3 class="carousel__title">
+                Minimal Sofa
+              </h3>
+              <h3 class="carousel__text">
+                Light single chair
+              </h3>
+              <span class="carousel__prise">
+                $145
+              </span>
+            </li>
+
+            <li class="carousel__item carousel__item--four">
+              <h3 class="carousel__title">
+                Dining Chair
+              </h3>
+              <h3 class="carousel__text">
+                Light single chair
+              </h3>
+              <span class="carousel__prise">
+                $145
+              </span>
+            </li>
+
+            <li class="carousel__item carousel__item--thre">
+              <h3 class="carousel__title">
+                Minimal Sofa
+              </h3>
+              <h3 class="carousel__text">
+                Light single chair
+              </h3>
+              <span class="carousel__prise">
+                $145
+              </span>
+            </li>
+          </ul>
+          <div class="wrap__link">
+           <a class="crousel__link" href="#">
+            Explore all items
+           </a>
+          </div>
+        </div>
     </section>
 
+   
 
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/carousel.js"></script>
     <script type="module" src="/js/main.js"></script>
   </body>
 </html>
