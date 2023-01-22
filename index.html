@@ -6,10 +6,241 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
+
 </head>
 
 <body>
-  
+  <section class="main-section">
+    <h1 class="page-title visually-hidden">
+      Exclusive Deals of Furniture Collection
+    </h1>
+    <!--? Header start  -->
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__wrapper">
+          <button class="site-header__btn hamburger-btn" id="openMenuBtn" aria-controls="primaryNavigation">
+            <img aria-hidden="true" width="24" height="24" src="/hero/hamburger.svg" alt="close icon">
+          </button>
+          <button class="site-header__btn menu-btn" id="closeMenuBtn" aria-controls="primaryNavigation">
+            <img aria-hidden="true" width="24" height="24" src="/hero/close.svg" alt="close icon">
+          </button>
+          <a class="site-logo" href="#">
+            <img src="/hero/logo-1.svg" aria-hidden="true" width="104" height="26" alt="Inwood's Logo">
+          </a>
+
+          <!--? navigation goes here -->
+          <nav class="site-header__nav primary-navigation navigation" id="primaryNavigation">
+            <ul class="navigation__list" id="primaryMenu" title="Main navigation">
+              <li class="navigation__item">
+                <a class="navigation__link" title="Home page" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" title="Products" href="#">
+                  Products
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" title="Categories" href="#">
+                  Category
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" title="About us" href="#">
+                  About us
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" title="Contact us" href="#">
+                  Contact
+                </a>
+              </li>
+              <li class="navigation__item--secondary">
+                <ul class="navigation__item--secondary__list">
+                  <li class="navigation__item--secondary__item">
+                    <a class="navigation__item--secondary__link" title="Shipping" href="#">
+                      My Shipping
+                    </a>
+                  </li>
+                  <li class="navigation__item--secondary__item">
+                    <a class="navigation__item--secondary__link" title="Order status" href="#">
+                      Order status
+                    </a>
+                  </li>
+                  <li class="navigation__item--secondary__item">
+                    <a class="navigation__item--secondary__link" title="Sizing" href="#">
+                      Sizing
+                    </a>
+                  </li>
+                  <li class="navigation__item--secondary__item">
+                    <a class="navigation__item--secondary__link" title="Returns" href="#">
+                      Returns
+                    </a>
+                  </li>
+                  <li class="navigation__item--secondary__item">
+                    <a class="navigation__item--secondary__link" title="Sign in" href="#">
+                      Sign in
+                    </a>
+                  </li>
+                  <li class="navigation__item--secondary__item">
+                    <a class="navigation__item--secondary__link" title="Register" href="#">
+                      Register
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navigation__item--secondary">
+                <ul class="navigation__item--secondary__list">
+                  <li class="navigation__item--secondary__item">
+                    <a class="navigation__item--secondary__link" title="Dinning room" href="#">
+                      Dinning room
+                    </a>
+                  </li>
+                  <li class="navigation__item--secondary__item">
+                    <a class="navigation__item--secondary__link" title="Bedroom" href="#">
+                      Bedroom
+                    </a>
+                  </li>
+                  <li class="navigation__item--secondary__item">
+                    <a class="navigation__item--secondary__link" title="All Products" href="#">
+                      All Products
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+          <!--? call to action buttons go here  -->
+          <ul class="site-header__action-list action-list" title="Perform actions">
+            <li class="action-list__item" title="Search">
+              <button class="action-list__btn">
+                <img width="21" height="21" src="/hero/search.svg" alt="search icon" aria-hidden="true">
+              </button>
+            </li>
+            <li class="action-list__item" title="See your shopping cart">
+              <button class="action-list__btn">
+                <img width="21" height="21" src="/hero/shopping.svg" alt="shopping icon" aria-hidden="true">
+              </button>
+            </li>
+            <li class="action-list__item" title="Go to your profile">
+              <button class="action-list__btn" id="registerBtn">
+                <img width="21" height="21" src="/hero/user.svg" alt="user icon" aria-hidden="true">
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--? Header end  -->
+
+    <!--? Hero start  -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <h2 class="hero__title">
+            Exclusive Deals of Furniture Collection
+          </h2>
+          <p class="hero__text">
+            Explore different categories. Find the best deals.
+          </p>
+          <button class="hero__btn btn-success">
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--? Hero end  -->
+  </section>
+
+  <section class="expediency">
+    <div class="container">
+      <h2 class="expediency__title">
+        Benefits for your expediency
+      </h2>
+      <ul class="expediency__list">
+        <li class="expediency__item">
+          <h3 class="expediency__heading">
+            Payment Method
+          </h3>
+          <p class="expediency__text">
+            We offer flexible payment
+            options, to make easier.
+          </p>
+        </li>
+        <li class="expediency__item">
+          <h3 class="expediency__heading">
+            Return policy
+          </h3>
+          <p class="expediency__text">
+            You can return a product
+            within 30 days.
+          </p>
+        </li>
+        <li class="expediency__item">
+          <h3 class="expediency__heading">
+            Customer Support
+          </h3>
+          <p class="expediency__text">
+            Our customer support
+            is 24/7.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <article class="article">
+    <div class="article__wrapper">
+      <div class="article__intro">
+        <img class="article__img" src="/hero/article.jpg" alt="A nice and lovely room with">
+      </div>
+      <div class="article__inner">
+        <div class="article__title__wrapper">
+          <h2 class="article__title">
+            Join our
+            <strong>
+              Newsletter
+            </strong>
+          </h2>
+        </div>
+        <p class="article__text">
+          Receive exclusive deals, discounts and
+          many offers.
+        </p>
+        <form class="article__form" action="https://echo.htmlacademy.ru/courses">
+          <input class="article__input" type="email" name="user_email" placeholder="Enter your email" required  >
+          <button class="article__btn btn-success" type="submit">
+            Subscribe
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </article>
+  <!--? dialog start  -->
+  <dialog class="dialog register-dialog" id="registerDialog">
+    <form class="dialog__form register-form" method="POST" action="https://echo.htmlacademy.ru/courses"
+      id="registerForm">
+      <div class="register-form__inner">
+        <h2 class="register-form__title">
+          Registration
+        </h2>
+        <button class="register-form__btn" id="closeDialogBtn" type="button"></button>
+        <!-- inputs -->
+      </div>
+      <input class="register-form__input custom-input" placeholder="User name" name="user_name" type="text"
+        aria-label="enter your username" required>
+      <input class="register-form__input custom-input" placeholder="Password" name="user_name" type="password"
+        aria-label="enter your password" required>
+      <button class="register-form__submitter btn-success" type="submit">
+        Register
+      </button>
+    </form>
+  </dialog>
+  <!--? dialog end  -->
   <script type="module" src="/js/main.js"></script>
 </body>
 

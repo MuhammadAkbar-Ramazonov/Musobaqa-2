@@ -1,5 +1,5 @@
 *:root{
-
+    
 }
 
 
@@ -19,6 +19,13 @@ body {
     height: 100%;
     margin: 0;
     font-family: "Open Sans", sans-serif;
+    background-color: #FDFBF8;
+}
+
+button{
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 img {
@@ -27,13 +34,22 @@ img {
 }
 
 ul {
+    margin: 0;
     list-style: none;
     padding-left: 0;
+}
+
+button{
+    padding: 0;
 }
 
 a{
     display: inline-block;
     text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
 }
 
 button, input, label{
