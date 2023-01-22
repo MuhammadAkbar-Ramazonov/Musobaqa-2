@@ -1,3 +1,68 @@
-.hero{
-    padding: 100px 0;
+.hero {
+    padding: 128px 0 206px 0;
+
 }
+
+.hero__wrapper {
+    display: grid;
+    place-items: center;
+    margin-inline: auto;
+    text-align: center;
+    max-width: 400px;
+}
+
+.hero__title {
+    margin-bottom: 16px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    color: #07484A;
+}
+
+.hero__text {
+    margin-bottom: 52px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #07484A;
+}
+
+.hero__btn {
+    padding: 16px 40px;
+}
+
+@media screen and (min-width:768px) {
+    .hero__wrapper {
+        display: block;
+        margin-inline: 0;
+        max-width: 600px;
+        text-align: unset;
+    }
+
+    .hero__title {
+        font-size: 48px;
+        line-height: 62px;
+    }
+
+    .hero__text {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .hero__btn {
+        padding: 24px 55px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .hero__title {
+        margin-bottom: 54px;    
+        font-size: 64px;
+        line-height: 85px;
+    }
+    .hero__text{
+        margin-bottom: 54px;
+    }
+}
+
