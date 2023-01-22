@@ -44,6 +44,11 @@
 	line-height: 25px;
 
 	color: #07484a;
+
+	& a, & address{
+		color: inherit;
+		font-style: normal;
+	}
 }
 .site-footer__account-list {
 	display: flex;
@@ -88,12 +93,15 @@
 	.site-footer__social-list {
 		gap: 36px;
 	}
+	.site-footer__wapper{
+		gap: 50px;
+	}
 }
-@media only screen and (min-width: 1559px) {
+@media only screen and (min-width: 1530px) {
 	.site-footer__about {
 		gap: 50px;
 	}
 	.site-footer__wapper {
-		gap: 219px;
+		gap: 180px;
 	}
 }
