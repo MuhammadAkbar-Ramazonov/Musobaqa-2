@@ -18,6 +18,7 @@ body {
     flex-direction: column;
     height: 100%;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 img {
@@ -54,3 +55,9 @@ button, input, label{
     flex-grow: 1;
 }
 
+.container {
+    width: 100%;
+    max-width: 1660px;
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
