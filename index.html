@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vite App</title>
-	</head>
-	<body>
-		hello world
-		<img src="/javascript.svg" alt="" />
-		<script type="module" src="/js/main.js"></script>
-	</body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="./scss/main.scss" />
+</head>
+<body>
+  <section class="category">
+    <div class="container">
+      <h2 class="category__title">Explore by Category</h2>
+      <div>
+        <div>
+          <form class="category__form" action="https://echo.htmlacademy.ru/" autocomplete="off" method="get">
+            <input class="category__input" type="text" placeholder="Search" name="category_name" aria-label="Please enter category name!" title="Please enter category name!">
+          </form>
+          <ul>
+            <li>Bedroom</li>
+            <li>Dinning Room</li>
+            <li>Meeting Room</li>
+            <li>Workspace</li>
+            <li>Living Room</li>
+            <li>Kitchen</li>
+            <li>Living Space</li>
+            <li>Bedroom</li>
+            <li>Dinning Room</li>
+            <li>Meeting Room</li>
+          </ul>
+          <button>All Categories</button>
+        </div>
+        <ul>
+          <li>
+            <img src="" alt="">
+          </li>
+          <li>
+            <img src="" alt="">
+          </li>
+          <li>
+            <img src="" alt="">
+          </li>
+          <li>
+            <img src="" alt="">
+          </li>
+          <li>
+            <img src="" alt="">
+          </li>
+          <li>
+            <img src="" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <script type="module" src="/js/main.js"></script>
+</body>
 </html>
