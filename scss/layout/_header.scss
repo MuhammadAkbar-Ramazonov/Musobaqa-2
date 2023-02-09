@@ -1,205 +1,47 @@
+/* header styles */
 .site-header {
-    padding: 30px 0;
+	background-color: #eabf9f;
 }
-
-.site-header__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.site-header-inner {
+	padding-top: 14px;
+	padding-bottom: 16px;
 }
-
-.navigation__list {
-    position: fixed;
-    inset: 0;
-    display: grid;
-    place-content: flex-start;
-    gap: 16px;
-    margin: 0;
-    padding-top: 73px;
-    padding-left: 30px;
-    background-color: #FFFFFF;
-    opacity: 0;
-    transform: translateY(-100%);
-    transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out;
+.site-header-tel {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #01384d;
+	text-decoration: none;
+	::before {
+		content: "";
+		display: block;
+		width: 19px;
+		height: 19px;
+		margin-right: 13px;
+		background-image: url("Call.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
 }
-
-.navigation__item--secondary {
-    display: none;
+.site-nav-link {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #01384d;
+	text-decoration: none;
+	opacity: 0.6;
 }
-
-.navigation__list.show {
-    opacity: 1;
-    transform: translateY(0%);
-}
-
-.navigation__link {
-    font-weight: 600;
-    font-size: 47px;
-    line-height: 64px;
-    color: #000000;
-}
-
-.hamburger-btn {
-    z-index: 10;
-    margin-right: 36px;
-
-    &.close {
-        display: none;
-    }
-}
-
-.menu-btn {
-    display: none;
-
-    &.show {
-        display: block;
-        z-index: 10;
-    }
-}
-
-.action-list {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.action-list__item {
-    cursor: pointer;
-}
-
-@media screen and (min-width:768px) {
-    .navigation__list {
-        place-content: flex-end;
-        justify-content: flex-start;
-        padding-bottom: 113px;
-    }
-
-    .site-logo {
-        order: -1;
-
-        margin-right: 158px;
-
-        & img {
-            width: 144px;
-            height: 36px;
-        }
-    }
-
-    .menu-btn {
-        order: 0;
-    }
-
-    .hamburger-btn {
-        margin-right: 158px;
-    }
-
-    .navigation__item--secondary {
-        position: absolute;
-        display: block;
-        bottom: 125px;
-
-        &:nth-child(6) {
-            left: calc(48% + 93px);
-            transform: translateX(-100%);
-        }
-
-        &:nth-child(7) {
-            left: calc(73% + 93px);
-            transform: translateX(-100%)
-        }
-    }
-
-    .navigation__item--secondary__list {
-        display: grid;
-        gap: 20px;
-    }
-
-    .navigation__item--secondary__link {
-        font-size: 20px;
-        line-height: 27px;
-        color: #000000;
-    }
-
-    .action-list {
-        gap: 58px;
-
-        & img {
-            width: 27px;
-            height: 27px;
-        }
-    }
-}
-
-@media screen and (min-width:1024px) {
-    .site-logo {
-        margin-right: 286px;
-    }
-
-    .hamburger-btn {
-        margin-right: 286px;
-    }
-
-    .navigation__item--secondary {
-        &:nth-child(6) {
-            left: calc(38% + 138px);
-            transform: translateX(-100%);
-        }
-
-        &:nth-child(7) {
-            left: calc(70% + 138px);
-            transform: translateX(-100%)
-        }
-    }
-}
-
-@media screen and (min-width:1440px) {
-    .site-logo {
-        margin-right: 0;
-    }
-
-    .navigation__list {
-        position: relative;
-        display: flex;
-        place-content: flex-start;
-        gap: 48px;
-        margin: 0;
-        padding: 0;
-        background-color: transparent;
-        opacity: 1;
-        transform: translateY(0%);
-        transition: none;
-    }
-
-    .menu-btn {
-        display: none;
-
-        &.show{
-            display: none;
-        }
-    }
-
-    .hamburger-btn {
-        display: none;
-    }
-
-    .navigation__link {
-        padding-bottom: 3px;
-        font-family: 'Playfair Display';
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 132.9%;
-        letter-spacing: 0.05em;
-        color: #FFFFFF;
-        border-bottom: 3px solid transparent;
-        transition: border-color 0.3s ease-in-out,font-weight 0.1s ease-in-out;
-
-        &:hover{
-            font-weight: bold;
-            border-bottom-color: #fff;
-        }
-    }
-
-    .navigation__item--secondary {
-        display: none;
-    }
+.site-header-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	margin-left: 38px;
+	padding: 13px 28px;
+	background-color: #fff;
+	border: 2px solid #01384d;
+	border-radius: 5px;
+	color: #01384d;
 }
